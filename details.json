@@ -3,7 +3,36 @@
     "title-name"    : "JS",
     "display-name"  : "Jaya Shankar B",
     "tagline"       : "A student who loves exploring emerging technologies.",
-    "about-me"      : "I'm currently on my Third year of Computer Science and Engineering at JNTUHCEH. \nI love to explore new technologies and passionate about Programming and Web Development."
+    "about-me"      : "I'm currently on my Third year of Computer Science and Engineering at JNTUHCEH. \nI love to explore new technologies and passionate about Programming and Web Development.",
+    "projects"      : [
+        {
+            "url"     : "https://github.com/jaya-shankar/Human-Development-Prediction",
+            "img"      : "img/todolist.png"
+        }],
+
+    "social_profiles" : [
+            {
+                "title" : "Github",
+                "url"  : "https://github.com/jaya-shankar"
+            },
+            {
+                "title" : "LinkedIn",
+                "url"  : "https://www.linkedin.com/in/jaya-shankar-bandaru/"
+            },
+            {
+                "title" : "HackerRank",
+                "url"  : "https://www.linkedin.com/in/jaya-shankar-bandaru/"
+            },
+            {
+                "title" : "CodePen",
+                "url"  : "https://www.linkedin.com/in/jaya-shankar-bandaru/"
+            },
+            {
+                "title" : "HackerEarth",
+                "url"  : "https://www.linkedin.com/in/jaya-shankar-bandaru/"
+            }
+
+        ]
 
 
 }

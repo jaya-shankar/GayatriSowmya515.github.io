@@ -1,11 +1,20 @@
 //ScrollOut();
 
 function loadDetails(details) {
-    
-    console.log(details)
+
+    // console.log(details)
     for (const detail in details) {
-        var div = document.getElementById(detail);
-        div.innerHTML = details[detail];
+        if(detail == 'projects'){
+            loadProjects(details[detail]);
+        }
+        else if(detail == 'social_profiles'){
+            loadProfiles(details[detail]);
+        }
+        else{
+            var div = document.getElementById(detail);
+            div.innerHTML = details[detail];
+        }
+
     };
 
 }
