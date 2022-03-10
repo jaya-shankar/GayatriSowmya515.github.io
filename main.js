@@ -10,6 +10,12 @@ function loadDetails(details) {
         else if(detail == 'social_profiles'){
             loadProfiles(details[detail]);
         }
+        else if(detail == 'skills'){
+            loadSkills(details[detail]);
+        }
+        else if(detail == 'resume'){
+            loadResume(details[detail]);
+        }
         else{
             var div = document.getElementById(detail);
             div.innerHTML = details[detail];
