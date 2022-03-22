@@ -46,7 +46,7 @@ function loadJSON(path, success, error)
 }
 
 const object = loadJSON('details.json',
-         function(data) { },
+         function(data) {},
          function(xhr) { console.error(xhr); }
 );
 /////////////////////////
